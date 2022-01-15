@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/index.js | async2018tests</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/index.js~VirtualScroll.html">VirtualScroll</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-AsyncController">AsyncController</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-AsyncTemplate">AsyncTemplate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-AsyncView">AsyncView</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-template">template</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/index.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">
+import &apos;./utils.js&apos;;
+
+import {
+	AsyncView,
+	AsyncTemplate
+} from &quot;./entry&quot;;
+
+
+const data = [];
+
+let index = 0;
+for(var i = 0; i&lt;=125; i++){
+	data.push({
+		id:i,
+		tag:Math.random(i*i),
+		time:((new Date()).getTime())
+	});
+}
+
+let justScrolled = false;
+const template = new AsyncTemplate();
+let divs;
+let debug = true;
+
+const elementHeight:number= 115.88 * 2;
+
+const getHeight = e =&gt; Math.floor((window.innerHeight/elementHeight) * 1.2);
+const getMaxHeight = elementHeight =&gt; window.innerHeight-(elementHeight*2)+&quot;px&quot;;
+
+export {template, AsyncTemplate}
+
+/**
+ * asynx VirtualScroll component
+ * -appends and prepends elements to limit memory
+ * @type {[type]}
+ */
+
+export default class VirtualScroll extends AsyncView {
+
+	type:string = `virtual-scroll`;
+	innerHTML:string = `&lt;template&gt;&lt;/template&gt;`;
+
+	// TEMPORARY CODE
+	//
+	// Asyncronyously append children to the dom based on list data
+	// 	- to be brought into asynx
+
+	mounted:Function = async function(evt){
+
+		//!this.element ? this.element = document.getElementById(this.id) : null;
+
+		this.style.maxHeight = getMaxHeight(elementHeight);
+
+		//Push Items
+		for (let i = 0; i&lt;=getHeight()+6; i++){
+
+			if(!data[i])
+				continue;
+
+			template.a();
+
+			template.template[0] = await [
+
+				await new VirtualItem(data[i])
+
+			];
+
+			await template.iterateTemplate();
+		}
+
+		divs = await this.getElementsByTagName(&quot;virtual-item&quot;);
+
+		/**
+		 * append and prepend on scroll
+		 * @param  {[type]}  event [description]
+		 * @return {Promise}       [description]
+		 */
+
+		this.addEventListener(&quot;scroll&quot;, async (event)=&gt;{
+
+			if (
+					(index&gt;0)	&amp;&amp;
+					(this.children[1].getClientRects()[0].y+elementHeight&gt;0)
+				){
+
+					index--;
+					if (this.scrollTop&lt;=1)
+					this.scrollTop+=1;
+
+
+
+					await VirtualItem.UpdateItem(divs[divs.length-1], data[index]);
+
+					await divs[divs.length-1].appendBefore(divs[0]);
+
+				return;
+			} else if (
+					(index&lt;data.length-getHeight()-1)	&amp;&amp;
+					(this.children[divs.length].getClientRects()[0].y+elementHeight&lt;window.innerHeight)
+				){
+
+				index++;
+
+				await VirtualItem.UpdateItem(divs[0], data[index+getHeight()+1]);
+
+				let b = this.children[divs.length];
+
+				await divs[0].appendAfter(b);
+
+				return;
+			}
+
+			this.scrollTop = Math.floor(10*this.scrollTop)/10;
+
+		});
+
+		// RESIZING
+		//
+		// Add additional dom elements when resizing the page larger
+		//  - no compensation for smarller
+
+		window.addEventListener(&quot;optimizedResize&quot;, async()=&gt; {
+
+				this.style.maxHeight = getMaxHeight(elementHeight);
+
+				for (let i = 0; i&lt;1; i++){
+
+					await template.a();
+					template.defer = await [];
+					template.template[0] = await [
+						await new VirtualItem(data[i+divs.length])
+					];
+					await index++;
+					await template.iterateTemplate();
+
+				}
+
+				divs = await this.getElementsByTagName(&quot;virtual-item&quot;);
+				index=0;
+
+		});
+
+	}
+
+}
+
+/**
+ * Elemented Rendered inside of VirtualList
+ * @extends AsyncView
+ */
+
+class VirtualItem extends AsyncView {
+
+	/**
+	 * updates a given item
+	 * @param  {[type]} item [description]
+	 * @param  {[type]} data [description]
+	 * @return {[type]}      [description]
+	 */
+
+	static UpdateItem = async function(item, data){
+
+		item.getElementsByTagName(&apos;h3&apos;)[0].innerText = data.id;
+		item.getElementsByTagName(&apos;p&apos;)[0].innerText = data.tag;
+
+	}
+
+	//style:string = ``;
+	type:string = `virtual-item`;
+	renderTo:string = `virtual-scroll`;
+
+	/**
+	 * element information values are passed through the DATA parameter
+	 * @param {[type]} data [description]
+	 */
+
+	constructor(data){
+
+		return super({
+			innerHTML:`&lt;svg class=&quot;feather feather-x sc-dnqmqq jxshSx&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; aria-hidden=&quot;true&quot; data-reactid=&quot;1376&quot;&gt;&lt;line x1=&quot;18&quot; y1=&quot;6&quot; x2=&quot;6&quot; y2=&quot;18&quot;&gt;&lt;/line&gt;&lt;line x1=&quot;6&quot; y1=&quot;6&quot; x2=&quot;18&quot; y2=&quot;18&quot;&gt;&lt;/line&gt;&lt;/svg&gt;
+			&lt;img width=&quot;${elementHeight}&quot; height=&quot;${elementHeight}&quot; style=&quot;float:left;&quot; src=&quot;./assets/150.png&quot; srcs=&quot;https://picsum.photos/${elementHeight}/?random${data.time}&quot;/&gt; &lt;h3&gt;${data.id}&lt;/h3&gt;&lt;p&gt;${data.time}&lt;/p&gt;`
+		});
+	}
+
+	/**
+	 * triggers when element is visible on page
+	 * @param  {[type]} data [description]
+	 * @return {[type]}      [description]
+	 */
+
+	mounted = (data) =&gt; {
+		//console.log(data);
+		//console.log(this);
+	}
+
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

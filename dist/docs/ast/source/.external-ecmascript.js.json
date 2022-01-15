@@ -1,0 +1,2802 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 6063,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 198,
+      "column": 3
+    }
+  },
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 6063,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 198,
+        "column": 3
+      }
+    },
+    "sourceType": "module",
+    "body": [],
+    "directives": [],
+    "leadingComments": null,
+    "innerComments": [
+      {
+        "type": "CommentLine",
+        "value": " https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects",
+        "start": 0,
+        "end": 83,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 83
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": " Value properties",
+        "start": 84,
+        "end": 103,
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 0
+          },
+          "end": {
+            "line": 2,
+            "column": 19
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Infinity} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity\n ",
+        "start": 105,
+        "end": 226,
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 0
+          },
+          "end": {
+            "line": 6,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {NaN} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN\n ",
+        "start": 228,
+        "end": 339,
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 0
+          },
+          "end": {
+            "line": 10,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {undefined} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined\n ",
+        "start": 341,
+        "end": 464,
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 0
+          },
+          "end": {
+            "line": 14,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {null} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null\n ",
+        "start": 466,
+        "end": 579,
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 0
+          },
+          "end": {
+            "line": 18,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": " Fundamental objects",
+        "start": 580,
+        "end": 602,
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 0
+          },
+          "end": {
+            "line": 19,
+            "column": 22
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Object} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object\n ",
+        "start": 604,
+        "end": 721,
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 0
+          },
+          "end": {
+            "line": 23,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {object} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object\n ",
+        "start": 723,
+        "end": 840,
+        "loc": {
+          "start": {
+            "line": 25,
+            "column": 0
+          },
+          "end": {
+            "line": 27,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Function} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function\n ",
+        "start": 842,
+        "end": 963,
+        "loc": {
+          "start": {
+            "line": 29,
+            "column": 0
+          },
+          "end": {
+            "line": 31,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {function} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function\n ",
+        "start": 965,
+        "end": 1086,
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 0
+          },
+          "end": {
+            "line": 35,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Boolean} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean\n ",
+        "start": 1088,
+        "end": 1207,
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 0
+          },
+          "end": {
+            "line": 39,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {boolean} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean\n ",
+        "start": 1209,
+        "end": 1328,
+        "loc": {
+          "start": {
+            "line": 41,
+            "column": 0
+          },
+          "end": {
+            "line": 43,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Symbol} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol\n ",
+        "start": 1330,
+        "end": 1447,
+        "loc": {
+          "start": {
+            "line": 45,
+            "column": 0
+          },
+          "end": {
+            "line": 47,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Error} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error\n ",
+        "start": 1449,
+        "end": 1564,
+        "loc": {
+          "start": {
+            "line": 49,
+            "column": 0
+          },
+          "end": {
+            "line": 51,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {EvalError} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError\n ",
+        "start": 1566,
+        "end": 1689,
+        "loc": {
+          "start": {
+            "line": 53,
+            "column": 0
+          },
+          "end": {
+            "line": 55,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {InternalError} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError\n ",
+        "start": 1691,
+        "end": 1822,
+        "loc": {
+          "start": {
+            "line": 57,
+            "column": 0
+          },
+          "end": {
+            "line": 59,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {RangeError} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError\n ",
+        "start": 1824,
+        "end": 1949,
+        "loc": {
+          "start": {
+            "line": 61,
+            "column": 0
+          },
+          "end": {
+            "line": 63,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {ReferenceError} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError\n ",
+        "start": 1951,
+        "end": 2084,
+        "loc": {
+          "start": {
+            "line": 65,
+            "column": 0
+          },
+          "end": {
+            "line": 67,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {SyntaxError} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError\n ",
+        "start": 2086,
+        "end": 2213,
+        "loc": {
+          "start": {
+            "line": 69,
+            "column": 0
+          },
+          "end": {
+            "line": 71,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {TypeError} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError\n ",
+        "start": 2215,
+        "end": 2338,
+        "loc": {
+          "start": {
+            "line": 73,
+            "column": 0
+          },
+          "end": {
+            "line": 75,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {URIError} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError\n ",
+        "start": 2340,
+        "end": 2461,
+        "loc": {
+          "start": {
+            "line": 77,
+            "column": 0
+          },
+          "end": {
+            "line": 79,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": " Numbers and dates",
+        "start": 2462,
+        "end": 2482,
+        "loc": {
+          "start": {
+            "line": 80,
+            "column": 0
+          },
+          "end": {
+            "line": 80,
+            "column": 20
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Number} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number\n ",
+        "start": 2484,
+        "end": 2601,
+        "loc": {
+          "start": {
+            "line": 82,
+            "column": 0
+          },
+          "end": {
+            "line": 84,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {number} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number\n ",
+        "start": 2603,
+        "end": 2720,
+        "loc": {
+          "start": {
+            "line": 86,
+            "column": 0
+          },
+          "end": {
+            "line": 88,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Date} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date\n ",
+        "start": 2722,
+        "end": 2835,
+        "loc": {
+          "start": {
+            "line": 90,
+            "column": 0
+          },
+          "end": {
+            "line": 92,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": " Text processing",
+        "start": 2836,
+        "end": 2854,
+        "loc": {
+          "start": {
+            "line": 93,
+            "column": 0
+          },
+          "end": {
+            "line": 93,
+            "column": 18
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {String} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String\n ",
+        "start": 2856,
+        "end": 2973,
+        "loc": {
+          "start": {
+            "line": 95,
+            "column": 0
+          },
+          "end": {
+            "line": 97,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {string} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String\n ",
+        "start": 2975,
+        "end": 3092,
+        "loc": {
+          "start": {
+            "line": 99,
+            "column": 0
+          },
+          "end": {
+            "line": 101,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {RegExp} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp\n ",
+        "start": 3094,
+        "end": 3211,
+        "loc": {
+          "start": {
+            "line": 103,
+            "column": 0
+          },
+          "end": {
+            "line": 105,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": " Indexed collections",
+        "start": 3212,
+        "end": 3234,
+        "loc": {
+          "start": {
+            "line": 106,
+            "column": 0
+          },
+          "end": {
+            "line": 106,
+            "column": 22
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array\n ",
+        "start": 3236,
+        "end": 3351,
+        "loc": {
+          "start": {
+            "line": 108,
+            "column": 0
+          },
+          "end": {
+            "line": 110,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Int8Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array\n ",
+        "start": 3353,
+        "end": 3476,
+        "loc": {
+          "start": {
+            "line": 112,
+            "column": 0
+          },
+          "end": {
+            "line": 114,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Uint8Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array\n ",
+        "start": 3478,
+        "end": 3603,
+        "loc": {
+          "start": {
+            "line": 116,
+            "column": 0
+          },
+          "end": {
+            "line": 118,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Uint8ClampedArray} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray\n ",
+        "start": 3605,
+        "end": 3744,
+        "loc": {
+          "start": {
+            "line": 120,
+            "column": 0
+          },
+          "end": {
+            "line": 122,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Int16Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array\n ",
+        "start": 3746,
+        "end": 3871,
+        "loc": {
+          "start": {
+            "line": 124,
+            "column": 0
+          },
+          "end": {
+            "line": 126,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Uint16Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array\n ",
+        "start": 3873,
+        "end": 4000,
+        "loc": {
+          "start": {
+            "line": 128,
+            "column": 0
+          },
+          "end": {
+            "line": 130,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Int32Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array\n ",
+        "start": 4002,
+        "end": 4127,
+        "loc": {
+          "start": {
+            "line": 132,
+            "column": 0
+          },
+          "end": {
+            "line": 134,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Uint32Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array\n ",
+        "start": 4129,
+        "end": 4256,
+        "loc": {
+          "start": {
+            "line": 136,
+            "column": 0
+          },
+          "end": {
+            "line": 138,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Float32Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array\n ",
+        "start": 4258,
+        "end": 4387,
+        "loc": {
+          "start": {
+            "line": 140,
+            "column": 0
+          },
+          "end": {
+            "line": 142,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Float64Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array\n ",
+        "start": 4389,
+        "end": 4518,
+        "loc": {
+          "start": {
+            "line": 144,
+            "column": 0
+          },
+          "end": {
+            "line": 146,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": " Keyed collections",
+        "start": 4519,
+        "end": 4539,
+        "loc": {
+          "start": {
+            "line": 147,
+            "column": 0
+          },
+          "end": {
+            "line": 147,
+            "column": 20
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Map} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map\n ",
+        "start": 4541,
+        "end": 4652,
+        "loc": {
+          "start": {
+            "line": 149,
+            "column": 0
+          },
+          "end": {
+            "line": 151,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Set} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set\n ",
+        "start": 4654,
+        "end": 4765,
+        "loc": {
+          "start": {
+            "line": 153,
+            "column": 0
+          },
+          "end": {
+            "line": 155,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {WeakMap} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap\n ",
+        "start": 4767,
+        "end": 4886,
+        "loc": {
+          "start": {
+            "line": 157,
+            "column": 0
+          },
+          "end": {
+            "line": 159,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {WeakSet} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet\n ",
+        "start": 4888,
+        "end": 5007,
+        "loc": {
+          "start": {
+            "line": 161,
+            "column": 0
+          },
+          "end": {
+            "line": 163,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": " Structured data",
+        "start": 5008,
+        "end": 5026,
+        "loc": {
+          "start": {
+            "line": 164,
+            "column": 0
+          },
+          "end": {
+            "line": 164,
+            "column": 18
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {ArrayBuffer} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer\n ",
+        "start": 5028,
+        "end": 5155,
+        "loc": {
+          "start": {
+            "line": 166,
+            "column": 0
+          },
+          "end": {
+            "line": 168,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {DataView} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView\n ",
+        "start": 5157,
+        "end": 5278,
+        "loc": {
+          "start": {
+            "line": 170,
+            "column": 0
+          },
+          "end": {
+            "line": 172,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {JSON} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON\n ",
+        "start": 5280,
+        "end": 5393,
+        "loc": {
+          "start": {
+            "line": 174,
+            "column": 0
+          },
+          "end": {
+            "line": 176,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": " Control abstraction objects",
+        "start": 5394,
+        "end": 5424,
+        "loc": {
+          "start": {
+            "line": 177,
+            "column": 0
+          },
+          "end": {
+            "line": 177,
+            "column": 30
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Promise} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise\n ",
+        "start": 5426,
+        "end": 5545,
+        "loc": {
+          "start": {
+            "line": 179,
+            "column": 0
+          },
+          "end": {
+            "line": 181,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Generator} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator\n ",
+        "start": 5547,
+        "end": 5670,
+        "loc": {
+          "start": {
+            "line": 183,
+            "column": 0
+          },
+          "end": {
+            "line": 185,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {GeneratorFunction} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction\n ",
+        "start": 5672,
+        "end": 5811,
+        "loc": {
+          "start": {
+            "line": 187,
+            "column": 0
+          },
+          "end": {
+            "line": 189,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": " Reflection",
+        "start": 5812,
+        "end": 5825,
+        "loc": {
+          "start": {
+            "line": 190,
+            "column": 0
+          },
+          "end": {
+            "line": 190,
+            "column": 13
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Reflect} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect\n ",
+        "start": 5827,
+        "end": 5946,
+        "loc": {
+          "start": {
+            "line": 192,
+            "column": 0
+          },
+          "end": {
+            "line": 194,
+            "column": 3
+          }
+        }
+      },
+      {
+        "type": "CommentBlock",
+        "value": "*\n * @external {Proxy} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy\n ",
+        "start": 5948,
+        "end": 6063,
+        "loc": {
+          "start": {
+            "line": 196,
+            "column": 0
+          },
+          "end": {
+            "line": 198,
+            "column": 3
+          }
+        }
+      }
+    ]
+  },
+  "comments": [
+    {
+      "type": "CommentLine",
+      "value": " https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects",
+      "start": 0,
+      "end": 83,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 83
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " Value properties",
+      "start": 84,
+      "end": 103,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Infinity} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity\n ",
+      "start": 105,
+      "end": 226,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {NaN} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN\n ",
+      "start": 228,
+      "end": 339,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {undefined} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined\n ",
+      "start": 341,
+      "end": 464,
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {null} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null\n ",
+      "start": 466,
+      "end": 579,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 18,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " Fundamental objects",
+      "start": 580,
+      "end": 602,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 0
+        },
+        "end": {
+          "line": 19,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Object} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object\n ",
+      "start": 604,
+      "end": 721,
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 0
+        },
+        "end": {
+          "line": 23,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {object} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object\n ",
+      "start": 723,
+      "end": 840,
+      "loc": {
+        "start": {
+          "line": 25,
+          "column": 0
+        },
+        "end": {
+          "line": 27,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Function} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function\n ",
+      "start": 842,
+      "end": 963,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 0
+        },
+        "end": {
+          "line": 31,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {function} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function\n ",
+      "start": 965,
+      "end": 1086,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 0
+        },
+        "end": {
+          "line": 35,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Boolean} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean\n ",
+      "start": 1088,
+      "end": 1207,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 0
+        },
+        "end": {
+          "line": 39,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {boolean} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean\n ",
+      "start": 1209,
+      "end": 1328,
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 0
+        },
+        "end": {
+          "line": 43,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Symbol} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol\n ",
+      "start": 1330,
+      "end": 1447,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 0
+        },
+        "end": {
+          "line": 47,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Error} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error\n ",
+      "start": 1449,
+      "end": 1564,
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 0
+        },
+        "end": {
+          "line": 51,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {EvalError} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError\n ",
+      "start": 1566,
+      "end": 1689,
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 0
+        },
+        "end": {
+          "line": 55,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {InternalError} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError\n ",
+      "start": 1691,
+      "end": 1822,
+      "loc": {
+        "start": {
+          "line": 57,
+          "column": 0
+        },
+        "end": {
+          "line": 59,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {RangeError} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError\n ",
+      "start": 1824,
+      "end": 1949,
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 0
+        },
+        "end": {
+          "line": 63,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {ReferenceError} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError\n ",
+      "start": 1951,
+      "end": 2084,
+      "loc": {
+        "start": {
+          "line": 65,
+          "column": 0
+        },
+        "end": {
+          "line": 67,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {SyntaxError} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError\n ",
+      "start": 2086,
+      "end": 2213,
+      "loc": {
+        "start": {
+          "line": 69,
+          "column": 0
+        },
+        "end": {
+          "line": 71,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {TypeError} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError\n ",
+      "start": 2215,
+      "end": 2338,
+      "loc": {
+        "start": {
+          "line": 73,
+          "column": 0
+        },
+        "end": {
+          "line": 75,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {URIError} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError\n ",
+      "start": 2340,
+      "end": 2461,
+      "loc": {
+        "start": {
+          "line": 77,
+          "column": 0
+        },
+        "end": {
+          "line": 79,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " Numbers and dates",
+      "start": 2462,
+      "end": 2482,
+      "loc": {
+        "start": {
+          "line": 80,
+          "column": 0
+        },
+        "end": {
+          "line": 80,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Number} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number\n ",
+      "start": 2484,
+      "end": 2601,
+      "loc": {
+        "start": {
+          "line": 82,
+          "column": 0
+        },
+        "end": {
+          "line": 84,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {number} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number\n ",
+      "start": 2603,
+      "end": 2720,
+      "loc": {
+        "start": {
+          "line": 86,
+          "column": 0
+        },
+        "end": {
+          "line": 88,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Date} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date\n ",
+      "start": 2722,
+      "end": 2835,
+      "loc": {
+        "start": {
+          "line": 90,
+          "column": 0
+        },
+        "end": {
+          "line": 92,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " Text processing",
+      "start": 2836,
+      "end": 2854,
+      "loc": {
+        "start": {
+          "line": 93,
+          "column": 0
+        },
+        "end": {
+          "line": 93,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {String} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String\n ",
+      "start": 2856,
+      "end": 2973,
+      "loc": {
+        "start": {
+          "line": 95,
+          "column": 0
+        },
+        "end": {
+          "line": 97,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {string} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String\n ",
+      "start": 2975,
+      "end": 3092,
+      "loc": {
+        "start": {
+          "line": 99,
+          "column": 0
+        },
+        "end": {
+          "line": 101,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {RegExp} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp\n ",
+      "start": 3094,
+      "end": 3211,
+      "loc": {
+        "start": {
+          "line": 103,
+          "column": 0
+        },
+        "end": {
+          "line": 105,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " Indexed collections",
+      "start": 3212,
+      "end": 3234,
+      "loc": {
+        "start": {
+          "line": 106,
+          "column": 0
+        },
+        "end": {
+          "line": 106,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array\n ",
+      "start": 3236,
+      "end": 3351,
+      "loc": {
+        "start": {
+          "line": 108,
+          "column": 0
+        },
+        "end": {
+          "line": 110,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Int8Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array\n ",
+      "start": 3353,
+      "end": 3476,
+      "loc": {
+        "start": {
+          "line": 112,
+          "column": 0
+        },
+        "end": {
+          "line": 114,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Uint8Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array\n ",
+      "start": 3478,
+      "end": 3603,
+      "loc": {
+        "start": {
+          "line": 116,
+          "column": 0
+        },
+        "end": {
+          "line": 118,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Uint8ClampedArray} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray\n ",
+      "start": 3605,
+      "end": 3744,
+      "loc": {
+        "start": {
+          "line": 120,
+          "column": 0
+        },
+        "end": {
+          "line": 122,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Int16Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array\n ",
+      "start": 3746,
+      "end": 3871,
+      "loc": {
+        "start": {
+          "line": 124,
+          "column": 0
+        },
+        "end": {
+          "line": 126,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Uint16Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array\n ",
+      "start": 3873,
+      "end": 4000,
+      "loc": {
+        "start": {
+          "line": 128,
+          "column": 0
+        },
+        "end": {
+          "line": 130,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Int32Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array\n ",
+      "start": 4002,
+      "end": 4127,
+      "loc": {
+        "start": {
+          "line": 132,
+          "column": 0
+        },
+        "end": {
+          "line": 134,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Uint32Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array\n ",
+      "start": 4129,
+      "end": 4256,
+      "loc": {
+        "start": {
+          "line": 136,
+          "column": 0
+        },
+        "end": {
+          "line": 138,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Float32Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array\n ",
+      "start": 4258,
+      "end": 4387,
+      "loc": {
+        "start": {
+          "line": 140,
+          "column": 0
+        },
+        "end": {
+          "line": 142,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Float64Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array\n ",
+      "start": 4389,
+      "end": 4518,
+      "loc": {
+        "start": {
+          "line": 144,
+          "column": 0
+        },
+        "end": {
+          "line": 146,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " Keyed collections",
+      "start": 4519,
+      "end": 4539,
+      "loc": {
+        "start": {
+          "line": 147,
+          "column": 0
+        },
+        "end": {
+          "line": 147,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Map} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map\n ",
+      "start": 4541,
+      "end": 4652,
+      "loc": {
+        "start": {
+          "line": 149,
+          "column": 0
+        },
+        "end": {
+          "line": 151,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Set} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set\n ",
+      "start": 4654,
+      "end": 4765,
+      "loc": {
+        "start": {
+          "line": 153,
+          "column": 0
+        },
+        "end": {
+          "line": 155,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {WeakMap} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap\n ",
+      "start": 4767,
+      "end": 4886,
+      "loc": {
+        "start": {
+          "line": 157,
+          "column": 0
+        },
+        "end": {
+          "line": 159,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {WeakSet} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet\n ",
+      "start": 4888,
+      "end": 5007,
+      "loc": {
+        "start": {
+          "line": 161,
+          "column": 0
+        },
+        "end": {
+          "line": 163,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " Structured data",
+      "start": 5008,
+      "end": 5026,
+      "loc": {
+        "start": {
+          "line": 164,
+          "column": 0
+        },
+        "end": {
+          "line": 164,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {ArrayBuffer} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer\n ",
+      "start": 5028,
+      "end": 5155,
+      "loc": {
+        "start": {
+          "line": 166,
+          "column": 0
+        },
+        "end": {
+          "line": 168,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {DataView} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView\n ",
+      "start": 5157,
+      "end": 5278,
+      "loc": {
+        "start": {
+          "line": 170,
+          "column": 0
+        },
+        "end": {
+          "line": 172,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {JSON} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON\n ",
+      "start": 5280,
+      "end": 5393,
+      "loc": {
+        "start": {
+          "line": 174,
+          "column": 0
+        },
+        "end": {
+          "line": 176,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " Control abstraction objects",
+      "start": 5394,
+      "end": 5424,
+      "loc": {
+        "start": {
+          "line": 177,
+          "column": 0
+        },
+        "end": {
+          "line": 177,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Promise} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise\n ",
+      "start": 5426,
+      "end": 5545,
+      "loc": {
+        "start": {
+          "line": 179,
+          "column": 0
+        },
+        "end": {
+          "line": 181,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Generator} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator\n ",
+      "start": 5547,
+      "end": 5670,
+      "loc": {
+        "start": {
+          "line": 183,
+          "column": 0
+        },
+        "end": {
+          "line": 185,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {GeneratorFunction} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction\n ",
+      "start": 5672,
+      "end": 5811,
+      "loc": {
+        "start": {
+          "line": 187,
+          "column": 0
+        },
+        "end": {
+          "line": 189,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " Reflection",
+      "start": 5812,
+      "end": 5825,
+      "loc": {
+        "start": {
+          "line": 190,
+          "column": 0
+        },
+        "end": {
+          "line": 190,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Reflect} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect\n ",
+      "start": 5827,
+      "end": 5946,
+      "loc": {
+        "start": {
+          "line": 192,
+          "column": 0
+        },
+        "end": {
+          "line": 194,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Proxy} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy\n ",
+      "start": 5948,
+      "end": 6063,
+      "loc": {
+        "start": {
+          "line": 196,
+          "column": 0
+        },
+        "end": {
+          "line": 198,
+          "column": 3
+        }
+      }
+    }
+  ],
+  "tokens": [
+    {
+      "type": "CommentLine",
+      "value": " https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects",
+      "start": 0,
+      "end": 83,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 83
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " Value properties",
+      "start": 84,
+      "end": 103,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Infinity} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity\n ",
+      "start": 105,
+      "end": 226,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {NaN} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN\n ",
+      "start": 228,
+      "end": 339,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {undefined} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined\n ",
+      "start": 341,
+      "end": 464,
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {null} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null\n ",
+      "start": 466,
+      "end": 579,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 18,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " Fundamental objects",
+      "start": 580,
+      "end": 602,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 0
+        },
+        "end": {
+          "line": 19,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Object} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object\n ",
+      "start": 604,
+      "end": 721,
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 0
+        },
+        "end": {
+          "line": 23,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {object} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object\n ",
+      "start": 723,
+      "end": 840,
+      "loc": {
+        "start": {
+          "line": 25,
+          "column": 0
+        },
+        "end": {
+          "line": 27,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Function} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function\n ",
+      "start": 842,
+      "end": 963,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 0
+        },
+        "end": {
+          "line": 31,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {function} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function\n ",
+      "start": 965,
+      "end": 1086,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 0
+        },
+        "end": {
+          "line": 35,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Boolean} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean\n ",
+      "start": 1088,
+      "end": 1207,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 0
+        },
+        "end": {
+          "line": 39,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {boolean} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean\n ",
+      "start": 1209,
+      "end": 1328,
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 0
+        },
+        "end": {
+          "line": 43,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Symbol} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol\n ",
+      "start": 1330,
+      "end": 1447,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 0
+        },
+        "end": {
+          "line": 47,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Error} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error\n ",
+      "start": 1449,
+      "end": 1564,
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 0
+        },
+        "end": {
+          "line": 51,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {EvalError} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError\n ",
+      "start": 1566,
+      "end": 1689,
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 0
+        },
+        "end": {
+          "line": 55,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {InternalError} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError\n ",
+      "start": 1691,
+      "end": 1822,
+      "loc": {
+        "start": {
+          "line": 57,
+          "column": 0
+        },
+        "end": {
+          "line": 59,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {RangeError} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError\n ",
+      "start": 1824,
+      "end": 1949,
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 0
+        },
+        "end": {
+          "line": 63,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {ReferenceError} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError\n ",
+      "start": 1951,
+      "end": 2084,
+      "loc": {
+        "start": {
+          "line": 65,
+          "column": 0
+        },
+        "end": {
+          "line": 67,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {SyntaxError} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError\n ",
+      "start": 2086,
+      "end": 2213,
+      "loc": {
+        "start": {
+          "line": 69,
+          "column": 0
+        },
+        "end": {
+          "line": 71,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {TypeError} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError\n ",
+      "start": 2215,
+      "end": 2338,
+      "loc": {
+        "start": {
+          "line": 73,
+          "column": 0
+        },
+        "end": {
+          "line": 75,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {URIError} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError\n ",
+      "start": 2340,
+      "end": 2461,
+      "loc": {
+        "start": {
+          "line": 77,
+          "column": 0
+        },
+        "end": {
+          "line": 79,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " Numbers and dates",
+      "start": 2462,
+      "end": 2482,
+      "loc": {
+        "start": {
+          "line": 80,
+          "column": 0
+        },
+        "end": {
+          "line": 80,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Number} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number\n ",
+      "start": 2484,
+      "end": 2601,
+      "loc": {
+        "start": {
+          "line": 82,
+          "column": 0
+        },
+        "end": {
+          "line": 84,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {number} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number\n ",
+      "start": 2603,
+      "end": 2720,
+      "loc": {
+        "start": {
+          "line": 86,
+          "column": 0
+        },
+        "end": {
+          "line": 88,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Date} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date\n ",
+      "start": 2722,
+      "end": 2835,
+      "loc": {
+        "start": {
+          "line": 90,
+          "column": 0
+        },
+        "end": {
+          "line": 92,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " Text processing",
+      "start": 2836,
+      "end": 2854,
+      "loc": {
+        "start": {
+          "line": 93,
+          "column": 0
+        },
+        "end": {
+          "line": 93,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {String} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String\n ",
+      "start": 2856,
+      "end": 2973,
+      "loc": {
+        "start": {
+          "line": 95,
+          "column": 0
+        },
+        "end": {
+          "line": 97,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {string} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String\n ",
+      "start": 2975,
+      "end": 3092,
+      "loc": {
+        "start": {
+          "line": 99,
+          "column": 0
+        },
+        "end": {
+          "line": 101,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {RegExp} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp\n ",
+      "start": 3094,
+      "end": 3211,
+      "loc": {
+        "start": {
+          "line": 103,
+          "column": 0
+        },
+        "end": {
+          "line": 105,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " Indexed collections",
+      "start": 3212,
+      "end": 3234,
+      "loc": {
+        "start": {
+          "line": 106,
+          "column": 0
+        },
+        "end": {
+          "line": 106,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array\n ",
+      "start": 3236,
+      "end": 3351,
+      "loc": {
+        "start": {
+          "line": 108,
+          "column": 0
+        },
+        "end": {
+          "line": 110,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Int8Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array\n ",
+      "start": 3353,
+      "end": 3476,
+      "loc": {
+        "start": {
+          "line": 112,
+          "column": 0
+        },
+        "end": {
+          "line": 114,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Uint8Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array\n ",
+      "start": 3478,
+      "end": 3603,
+      "loc": {
+        "start": {
+          "line": 116,
+          "column": 0
+        },
+        "end": {
+          "line": 118,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Uint8ClampedArray} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray\n ",
+      "start": 3605,
+      "end": 3744,
+      "loc": {
+        "start": {
+          "line": 120,
+          "column": 0
+        },
+        "end": {
+          "line": 122,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Int16Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array\n ",
+      "start": 3746,
+      "end": 3871,
+      "loc": {
+        "start": {
+          "line": 124,
+          "column": 0
+        },
+        "end": {
+          "line": 126,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Uint16Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array\n ",
+      "start": 3873,
+      "end": 4000,
+      "loc": {
+        "start": {
+          "line": 128,
+          "column": 0
+        },
+        "end": {
+          "line": 130,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Int32Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array\n ",
+      "start": 4002,
+      "end": 4127,
+      "loc": {
+        "start": {
+          "line": 132,
+          "column": 0
+        },
+        "end": {
+          "line": 134,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Uint32Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array\n ",
+      "start": 4129,
+      "end": 4256,
+      "loc": {
+        "start": {
+          "line": 136,
+          "column": 0
+        },
+        "end": {
+          "line": 138,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Float32Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array\n ",
+      "start": 4258,
+      "end": 4387,
+      "loc": {
+        "start": {
+          "line": 140,
+          "column": 0
+        },
+        "end": {
+          "line": 142,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Float64Array} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array\n ",
+      "start": 4389,
+      "end": 4518,
+      "loc": {
+        "start": {
+          "line": 144,
+          "column": 0
+        },
+        "end": {
+          "line": 146,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " Keyed collections",
+      "start": 4519,
+      "end": 4539,
+      "loc": {
+        "start": {
+          "line": 147,
+          "column": 0
+        },
+        "end": {
+          "line": 147,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Map} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map\n ",
+      "start": 4541,
+      "end": 4652,
+      "loc": {
+        "start": {
+          "line": 149,
+          "column": 0
+        },
+        "end": {
+          "line": 151,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Set} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set\n ",
+      "start": 4654,
+      "end": 4765,
+      "loc": {
+        "start": {
+          "line": 153,
+          "column": 0
+        },
+        "end": {
+          "line": 155,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {WeakMap} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap\n ",
+      "start": 4767,
+      "end": 4886,
+      "loc": {
+        "start": {
+          "line": 157,
+          "column": 0
+        },
+        "end": {
+          "line": 159,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {WeakSet} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet\n ",
+      "start": 4888,
+      "end": 5007,
+      "loc": {
+        "start": {
+          "line": 161,
+          "column": 0
+        },
+        "end": {
+          "line": 163,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " Structured data",
+      "start": 5008,
+      "end": 5026,
+      "loc": {
+        "start": {
+          "line": 164,
+          "column": 0
+        },
+        "end": {
+          "line": 164,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {ArrayBuffer} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer\n ",
+      "start": 5028,
+      "end": 5155,
+      "loc": {
+        "start": {
+          "line": 166,
+          "column": 0
+        },
+        "end": {
+          "line": 168,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {DataView} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView\n ",
+      "start": 5157,
+      "end": 5278,
+      "loc": {
+        "start": {
+          "line": 170,
+          "column": 0
+        },
+        "end": {
+          "line": 172,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {JSON} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON\n ",
+      "start": 5280,
+      "end": 5393,
+      "loc": {
+        "start": {
+          "line": 174,
+          "column": 0
+        },
+        "end": {
+          "line": 176,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " Control abstraction objects",
+      "start": 5394,
+      "end": 5424,
+      "loc": {
+        "start": {
+          "line": 177,
+          "column": 0
+        },
+        "end": {
+          "line": 177,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Promise} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise\n ",
+      "start": 5426,
+      "end": 5545,
+      "loc": {
+        "start": {
+          "line": 179,
+          "column": 0
+        },
+        "end": {
+          "line": 181,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Generator} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator\n ",
+      "start": 5547,
+      "end": 5670,
+      "loc": {
+        "start": {
+          "line": 183,
+          "column": 0
+        },
+        "end": {
+          "line": 185,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {GeneratorFunction} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction\n ",
+      "start": 5672,
+      "end": 5811,
+      "loc": {
+        "start": {
+          "line": 187,
+          "column": 0
+        },
+        "end": {
+          "line": 189,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " Reflection",
+      "start": 5812,
+      "end": 5825,
+      "loc": {
+        "start": {
+          "line": 190,
+          "column": 0
+        },
+        "end": {
+          "line": 190,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Reflect} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect\n ",
+      "start": 5827,
+      "end": 5946,
+      "loc": {
+        "start": {
+          "line": 192,
+          "column": 0
+        },
+        "end": {
+          "line": 194,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * @external {Proxy} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy\n ",
+      "start": 5948,
+      "end": 6063,
+      "loc": {
+        "start": {
+          "line": 196,
+          "column": 0
+        },
+        "end": {
+          "line": 198,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "eof",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 6063,
+      "end": 6063,
+      "loc": {
+        "start": {
+          "line": 198,
+          "column": 3
+        },
+        "end": {
+          "line": 198,
+          "column": 3
+        }
+      }
+    }
+  ]
+}

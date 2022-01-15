@@ -1,0 +1,50 @@
+{
+	"name": "async2018tests",
+	"short_name": "axvirtuallist",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"flow-check": "flow --color=always",
+		"start": "yarn serve",
+		"build": "yarn clean:dist && yarn dev",
+		"build:dev": "yarn build",
+		"build:prod": "yarn prod",
+		"assets": "yarn parallel:assets && yarn docs",
+		"docs": "yarn esdoc",
+		"clean:all": "yarn clean:dist && yarn clean:lib",
+		"clean:install": "rimraf node_modules",
+		"clean:dist": "rimraf dist",
+		"clean:lib": "rimraf lib",
+		"serve": "yarn parallel:assets && yarn webpack-dev-server --config ./config/webpack.config.js --env.NODE_ENV=development --env.development",
+		"serve:dev": "yarn serve",
+		"serve:prod": "yarn preview",
+		"dev": "yarn clean:dist && yarn parallel:assets && yarn parallel:dev",
+		"prod": "yarn clean:dist && yarn parallel:assets && yarn parallel:prod",
+		"deploy": "yarn clean:all && yarn parallel:assets && yarn docs && yarn parallel --no-open && yarn library",
+		"watch": "yarn webpack --config=./config/webpack.config.js --env.NODE_ENV=development --env.development --watch",
+		"parallel": "yarn parallel:prod",
+		"parallel:stats": "yarn webpack --config=./config/webpack.prod.js --env.NODE_ENV=development --env.development --max_old_space_size=4096 --profile --json > ./dist/stats.json && node ./config/script.clean.json.js",
+		"parallel:dev": "yarn parallel-webpack --config=./config/webpack.config.js --env.NODE_ENV=development --env.development --max_old_space_size=4096",
+		"parallel:prod": "yarn parallel-webpack --config=./config/webpack.prod.js --env.NODE_ENV=production --env.production",
+		"parallel:assets": "yarn parallel-webpack --config=./config/webpack.assets.js --env.NODE_ENV=development --env.development",
+		"preview": "yarn parallel:assets && yarn webpack-dev-server --config ./config/webpack.prod.js --env.NODE_ENV=production --env.production",
+		"library": "yarn clean:lib && node ./node_modules/async.2018/config/script.minify.js ./package.json",
+		"dashboard": "yarn webpack-dashboard yarn prod --watch",
+		"test": "mocha src/**/*.unit.test.js || true",
+		"release:npm": "npm run deploy && npm publish ."
+	},
+	"author": "Ryan Tyler Spice-Finnie <spice.ryan@hotmail.com>",
+	"private": true,
+	"license": "UNLICENSED",
+	"dependencies": {
+		"async.2018": "../async.2018/"
+	},
+	"devDependencies": {},
+	"resolutions": {
+		"webpack-cli": "^3.1.2",
+		"@babel/runtime": "7.4.0",
+		"@babel/core": "^7.4.3",
+		"esdoc-babel-plugin": "ryanspice/esdoc-babel-plugin"
+	}
+}

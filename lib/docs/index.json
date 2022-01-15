@@ -1,0 +1,954 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/entry.js",
+    "content": "//@flow\r\n\r\nimport {\r\n\tpipe,\r\n\tview,\r\n\tmvc\r\n} from \"async.2018/src\";\r\n\r\nconst AsyncTemplate = pipe;\r\nconst AsyncView = view;\r\nconst AsyncController = mvc;\r\n\r\n/**\r\n * exports\r\n */\r\n\r\nexport default AsyncTemplate;\r\nexport {\r\n\tAsyncTemplate,\r\n\tAsyncView,\r\n\tAsyncController\r\n};\r\n",
+    "static": true,
+    "longname": "D:/199 - Async2018 - HelloWorld/src/entry.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "AsyncTemplate",
+    "memberof": "src/entry.js",
+    "static": true,
+    "longname": "src/entry.js~AsyncTemplate",
+    "access": "public",
+    "export": true,
+    "importPath": "async2018tests/src/entry.js",
+    "importStyle": "AsyncTemplate",
+    "description": "exports",
+    "lineNumber": 2,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "variable",
+    "name": "AsyncView",
+    "memberof": "src/entry.js",
+    "static": true,
+    "longname": "src/entry.js~AsyncView",
+    "access": "public",
+    "export": true,
+    "importPath": "async2018tests/src/entry.js",
+    "importStyle": "{AsyncView}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 51,
+    "kind": "variable",
+    "name": "AsyncController",
+    "memberof": "src/entry.js",
+    "static": true,
+    "longname": "src/entry.js~AsyncController",
+    "access": "public",
+    "export": true,
+    "importPath": "async2018tests/src/entry.js",
+    "importStyle": "{AsyncController}",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "\r\nimport './utils.js';\r\n\r\nimport {\r\n\tAsyncView,\r\n\tAsyncTemplate\r\n} from \"./entry\";\r\n\r\n\r\nconst data = [];\r\n\r\nlet index = 0;\r\nfor(var i = 0; i<=125; i++){\r\n\tdata.push({\r\n\t\tid:i,\r\n\t\ttag:Math.random(i*i),\r\n\t\ttime:((new Date()).getTime())\r\n\t});\r\n}\r\n\r\nlet justScrolled = false;\r\nconst template = new AsyncTemplate();\r\nlet divs;\r\nlet debug = true;\r\n\r\nconst elementHeight:number= 115.88 * 2;\r\n\r\nconst getHeight = e => Math.floor((window.innerHeight/elementHeight) * 1.2);\r\nconst getMaxHeight = elementHeight => window.innerHeight-(elementHeight*2)+\"px\";\r\n\r\nexport {template, AsyncTemplate}\r\n\r\n/**\r\n * asynx VirtualScroll component\r\n * -appends and prepends elements to limit memory\r\n * @type {[type]}\r\n */\r\n\r\nexport default class VirtualScroll extends AsyncView {\r\n\r\n\ttype:string = `virtual-scroll`;\r\n\tinnerHTML:string = `<template></template>`;\r\n\r\n\t// TEMPORARY CODE\r\n\t//\r\n\t// Asyncronyously append children to the dom based on list data\r\n\t// \t- to be brought into asynx\r\n\r\n\tmounted:Function = async function(evt){\r\n\r\n\t\t//!this.element ? this.element = document.getElementById(this.id) : null;\r\n\r\n\t\tthis.style.maxHeight = getMaxHeight(elementHeight);\r\n\r\n\t\t//Push Items\r\n\t\tfor (let i = 0; i<=getHeight()+6; i++){\r\n\r\n\t\t\tif(!data[i])\r\n\t\t\t\tcontinue;\r\n\r\n\t\t\ttemplate.a();\r\n\r\n\t\t\ttemplate.template[0] = await [\r\n\r\n\t\t\t\tawait new VirtualItem(data[i])\r\n\r\n\t\t\t];\r\n\r\n\t\t\tawait template.iterateTemplate();\r\n\t\t}\r\n\r\n\t\tdivs = await this.getElementsByTagName(\"virtual-item\");\r\n\r\n\t\t/**\r\n\t\t * append and prepend on scroll\r\n\t\t * @param  {[type]}  event [description]\r\n\t\t * @return {Promise}       [description]\r\n\t\t */\r\n\r\n\t\tthis.addEventListener(\"scroll\", async (event)=>{\r\n\r\n\t\t\tif (\r\n\t\t\t\t\t(index>0)\t&&\r\n\t\t\t\t\t(this.children[1].getClientRects()[0].y+elementHeight>0)\r\n\t\t\t\t){\r\n\r\n\t\t\t\t\tindex--;\r\n\t\t\t\t\tif (this.scrollTop<=1)\r\n\t\t\t\t\tthis.scrollTop+=1;\r\n\r\n\r\n\r\n\t\t\t\t\tawait VirtualItem.UpdateItem(divs[divs.length-1], data[index]);\r\n\r\n\t\t\t\t\tawait divs[divs.length-1].appendBefore(divs[0]);\r\n\r\n\t\t\t\treturn;\r\n\t\t\t} else if (\r\n\t\t\t\t\t(index<data.length-getHeight()-1)\t&&\r\n\t\t\t\t\t(this.children[divs.length].getClientRects()[0].y+elementHeight<window.innerHeight)\r\n\t\t\t\t){\r\n\r\n\t\t\t\tindex++;\r\n\r\n\t\t\t\tawait VirtualItem.UpdateItem(divs[0], data[index+getHeight()+1]);\r\n\r\n\t\t\t\tlet b = this.children[divs.length];\r\n\r\n\t\t\t\tawait divs[0].appendAfter(b);\r\n\r\n\t\t\t\treturn;\r\n\t\t\t}\r\n\r\n\t\t\tthis.scrollTop = Math.floor(10*this.scrollTop)/10;\r\n\r\n\t\t});\r\n\r\n\t\t// RESIZING\r\n\t\t//\r\n\t\t// Add additional dom elements when resizing the page larger\r\n\t\t//  - no compensation for smarller\r\n\r\n\t\twindow.addEventListener(\"optimizedResize\", async()=> {\r\n\r\n\t\t\t\tthis.style.maxHeight = getMaxHeight(elementHeight);\r\n\r\n\t\t\t\tfor (let i = 0; i<1; i++){\r\n\r\n\t\t\t\t\tawait template.a();\r\n\t\t\t\t\ttemplate.defer = await [];\r\n\t\t\t\t\ttemplate.template[0] = await [\r\n\t\t\t\t\t\tawait new VirtualItem(data[i+divs.length])\r\n\t\t\t\t\t];\r\n\t\t\t\t\tawait index++;\r\n\t\t\t\t\tawait template.iterateTemplate();\r\n\r\n\t\t\t\t}\r\n\r\n\t\t\t\tdivs = await this.getElementsByTagName(\"virtual-item\");\r\n\t\t\t\tindex=0;\r\n\r\n\t\t});\r\n\r\n\t}\r\n\r\n}\r\n\r\n/**\r\n * Elemented Rendered inside of VirtualList\r\n * @extends AsyncView\r\n */\r\n\r\nclass VirtualItem extends AsyncView {\r\n\r\n\t/**\r\n\t * updates a given item\r\n\t * @param  {[type]} item [description]\r\n\t * @param  {[type]} data [description]\r\n\t * @return {[type]}      [description]\r\n\t */\r\n\r\n\tstatic UpdateItem = async function(item, data){\r\n\r\n\t\titem.getElementsByTagName('h3')[0].innerText = data.id;\r\n\t\titem.getElementsByTagName('p')[0].innerText = data.tag;\r\n\r\n\t}\r\n\r\n\t//style:string = ``;\r\n\ttype:string = `virtual-item`;\r\n\trenderTo:string = `virtual-scroll`;\r\n\r\n\t/**\r\n\t * element information values are passed through the DATA parameter\r\n\t * @param {[type]} data [description]\r\n\t */\r\n\r\n\tconstructor(data){\r\n\r\n\t\treturn super({\r\n\t\t\tinnerHTML:`<svg class=\"feather feather-x sc-dnqmqq jxshSx\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" data-reactid=\"1376\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"></line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"></line></svg>\r\n\t\t\t<img width=\"${elementHeight}\" height=\"${elementHeight}\" style=\"float:left;\" src=\"./assets/150.png\" srcs=\"https://picsum.photos/${elementHeight}/?random${data.time}\"/> <h3>${data.id}</h3><p>${data.time}</p>`\r\n\t\t});\r\n\t}\r\n\r\n\t/**\r\n\t * triggers when element is visible on page\r\n\t * @param  {[type]} data [description]\r\n\t * @return {[type]}      [description]\r\n\t */\r\n\r\n\tmounted = (data) => {\r\n\t\t//console.log(data);\r\n\t\t//console.log(this);\r\n\t}\r\n\r\n}\r\n",
+    "static": true,
+    "longname": "D:/199 - Async2018 - HelloWorld/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 53,
+    "kind": "variable",
+    "name": "data",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~data",
+    "access": "public",
+    "export": false,
+    "importPath": "async2018tests/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "variable",
+    "name": "index",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~index",
+    "access": "public",
+    "export": false,
+    "importPath": "async2018tests/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "ignore": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "variable",
+    "name": "justScrolled",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~justScrolled",
+    "access": "public",
+    "export": false,
+    "importPath": "async2018tests/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "ignore": true,
+    "type": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "variable",
+    "name": "debug",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~debug",
+    "access": "public",
+    "export": false,
+    "importPath": "async2018tests/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "ignore": true,
+    "type": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "variable",
+    "name": "elementHeight",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~elementHeight",
+    "access": "public",
+    "export": false,
+    "importPath": "async2018tests/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "function",
+    "name": "getHeight",
+    "memberof": "src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/index.js~getHeight",
+    "access": "public",
+    "export": false,
+    "importPath": "async2018tests/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "ignore": true,
+    "params": [
+      {
+        "name": "e",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 59,
+    "kind": "function",
+    "name": "getMaxHeight",
+    "memberof": "src/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/index.js~getMaxHeight",
+    "access": "public",
+    "export": false,
+    "importPath": "async2018tests/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "ignore": true,
+    "params": [
+      {
+        "name": "elementHeight",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 60,
+    "kind": "class",
+    "name": "VirtualScroll",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~VirtualScroll",
+    "access": "public",
+    "export": true,
+    "importPath": "async2018tests/src/index.js",
+    "importStyle": "VirtualScroll",
+    "description": "asynx VirtualScroll component\n-appends and prepends elements to limit memory",
+    "lineNumber": 32,
+    "type": {
+      "nullable": null,
+      "types": [
+        "[type]"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "interface": false,
+    "extends": [
+      "src/entry.js~AsyncView"
+    ]
+  },
+  {
+    "__docId__": 61,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/index.js~VirtualScroll",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~VirtualScroll#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 33,
+    "undocument": true
+  },
+  {
+    "__docId__": 62,
+    "kind": "member",
+    "name": "scrollTop",
+    "memberof": "src/index.js~VirtualScroll",
+    "static": false,
+    "longname": "src/index.js~VirtualScroll#scrollTop",
+    "access": "public",
+    "description": null,
+    "lineNumber": 61,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "class",
+    "name": "VirtualItem",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~VirtualItem",
+    "access": "public",
+    "export": false,
+    "importPath": "async2018tests/src/index.js",
+    "importStyle": null,
+    "description": "Elemented Rendered inside of VirtualList",
+    "lineNumber": 102,
+    "interface": false,
+    "extends": [
+      "*"
+    ],
+    "ignore": true
+  },
+  {
+    "__docId__": 65,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/index.js~VirtualItem",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~VirtualItem#constructor",
+    "access": "public",
+    "description": "element information values are passed through the DATA parameter",
+    "lineNumber": 115,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "[type]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": "[description]"
+      }
+    ]
+  },
+  {
+    "__docId__": 66,
+    "kind": "variable",
+    "name": "template",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~template",
+    "access": "public",
+    "export": true,
+    "importPath": "async2018tests/src/index.js",
+    "importStyle": "{template}",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 67,
+    "kind": "file",
+    "name": "src/utils.js",
+    "content": "\r\nElement.prototype.appendAfter = function (element) {\r\n\telement.parentNode.insertBefore(this, element.nextSibling);\r\n},false;\r\n\r\nElement.prototype.appendBefore = function (element) {\r\n\telement.parentNode.insertBefore(this, element);\r\n},false;\r\n\r\n(function() {\r\n\tvar throttle = function(type, name, obj) {\r\n\t\tobj = obj || window;\r\n\t\tvar running = false;\r\n\t\tvar func = function() {\r\n\t\t\tif (running) { return; }\r\n\t\t\trunning = true;\r\n\t\t\trequestAnimationFrame(function() {\r\n\t\t\t\tobj.dispatchEvent(new CustomEvent(name));\r\n\t\t\t\trunning = false;\r\n\t\t\t});\r\n\t\t};\r\n\t\tobj.addEventListener(type, func);\r\n\t};\r\n\r\n\t/* init - you can init any event */\r\n\tthrottle(\"resize\", \"optimizedResize\");\r\n})();\r\n",
+    "static": true,
+    "longname": "D:/199 - Async2018 - HelloWorld/src/utils.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "kind": "index",
+    "content": "",
+    "longname": "D:\\199 - Async2018 - HelloWorld\\README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n\t\"name\": \"async2018tests\",\n\t\"short_name\": \"axvirtuallist\",\n\t\"version\": \"1.0.0\",\n\t\"description\": \"\",\n\t\"main\": \"index.js\",\n\t\"scripts\": {\n\t\t\"flow-check\": \"flow --color=always\",\n\t\t\"start\": \"yarn serve\",\n\t\t\"build\": \"yarn clean:dist && yarn dev\",\n\t\t\"build:dev\": \"yarn build\",\n\t\t\"build:prod\": \"yarn prod\",\n\t\t\"assets\": \"yarn parallel:assets && yarn docs\",\n\t\t\"docs\": \"yarn esdoc\",\n\t\t\"clean:all\": \"yarn clean:dist && yarn clean:lib\",\n\t\t\"clean:install\": \"rimraf node_modules\",\n\t\t\"clean:dist\": \"rimraf dist\",\n\t\t\"clean:lib\": \"rimraf lib\",\n\t\t\"serve\": \"yarn parallel:assets && yarn webpack-dev-server --config ./config/webpack.config.js --env.NODE_ENV=development --env.development\",\n\t\t\"serve:dev\": \"yarn serve\",\n\t\t\"serve:prod\": \"yarn preview\",\n\t\t\"dev\": \"yarn clean:dist && yarn parallel:assets && yarn parallel:dev\",\n\t\t\"prod\": \"yarn clean:dist && yarn parallel:assets && yarn parallel:prod\",\n\t\t\"deploy\": \"yarn clean:all && yarn parallel:assets && yarn docs && yarn parallel --no-open && yarn library\",\n\t\t\"watch\": \"yarn webpack --config=./config/webpack.config.js --env.NODE_ENV=development --env.development --watch\",\n\t\t\"parallel\": \"yarn parallel:prod\",\n\t\t\"parallel:stats\": \"yarn webpack --config=./config/webpack.prod.js --env.NODE_ENV=development --env.development --max_old_space_size=4096 --profile --json > ./dist/stats.json && node ./config/script.clean.json.js\",\n\t\t\"parallel:dev\": \"yarn parallel-webpack --config=./config/webpack.config.js --env.NODE_ENV=development --env.development --max_old_space_size=4096\",\n\t\t\"parallel:prod\": \"yarn parallel-webpack --config=./config/webpack.prod.js --env.NODE_ENV=production --env.production\",\n\t\t\"parallel:assets\": \"yarn parallel-webpack --config=./config/webpack.assets.js --env.NODE_ENV=development --env.development\",\n\t\t\"preview\": \"yarn parallel:assets && yarn webpack-dev-server --config ./config/webpack.prod.js --env.NODE_ENV=production --env.production\",\n\t\t\"library\": \"yarn clean:lib && node ./node_modules/async.2018/config/script.minify.js ./package.json\",\n\t\t\"dashboard\": \"yarn webpack-dashboard yarn prod --watch\",\n\t\t\"test\": \"mocha src/**/*.unit.test.js || true\",\n\t\t\"release:npm\": \"npm run deploy && npm publish .\"\n\t},\n\t\"author\": \"Ryan Tyler Spice-Finnie <spice.ryan@hotmail.com>\",\n\t\"private\": true,\n\t\"license\": \"UNLICENSED\",\n\t\"dependencies\": {\n\t\t\"async.2018\": \"../async.2018/\"\n\t},\n\t\"devDependencies\": {},\n\t\"resolutions\": {\n\t\t\"webpack-cli\": \"^3.1.2\",\n\t\t\"@babel/runtime\": \"7.4.0\",\n\t\t\"@babel/core\": \"^7.4.3\",\n\t\t\"esdoc-babel-plugin\": \"ryanspice/esdoc-babel-plugin\"\n\t}\n}\n",
+    "longname": "D:\\199 - Async2018 - HelloWorld\\package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]
